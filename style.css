@@ -21,6 +21,15 @@
   margin: 0;
 }
 
+.main {
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  color: black;
+}
+i {
+  text-transform: uppercase;
+}
+
 #logo-image img {
   margin: 0 20px;
   height: 100%;
