@@ -1,0 +1,67 @@
+#container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 50px auto;
+}
+
+#logo-container {
+  display: flex;
+  flex: row;
+  width: 50%;
+}
+
+#logo-container p {
+  padding: 0;
+  margin: 0;
+}
+
+#logo-image img {
+  margin: 0 20px;
+  height: 100%;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: right;
+}
+
+#icons img {
+  margin: 0 2px;
+  width: 25px;
+  height: 25px;
+}
+
+hr {
+  background-image: url("img/hr-img.png");
+  border: 10px solid;
+  background-repeat: repeat;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+}
+
+.float-right {
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  justify-content: baseline;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+.float-right p {
+  margin: 0;
+}
